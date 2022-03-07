@@ -1,1 +1,5 @@
-console.log('Connected!');
+class App extends React.Component {
+    render() {
+        return <p>Hi, from app!</p>
+    }
+}
