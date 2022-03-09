@@ -3,10 +3,14 @@ class App extends React.Component {
         return (
             <div>
                 <h1>Slot Machine 2022</h1>
-                <Machine />
+                <Machine 
+                s1="x"
+                s2="x"
+                s3="x"
+                />
             </div>
         )
     }
 }
 
-ReactDOM.render(<app/>, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'))
