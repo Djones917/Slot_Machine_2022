@@ -4,9 +4,11 @@
 }
 
 .win {
-    color: green;
+    color: white;
+    background: green;
 }
 
 .lose {
-    color: red;
+    color: white;
+    background: red;
 }
